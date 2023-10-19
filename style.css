@@ -1,0 +1,101 @@
+body {
+  margin: 50px 50px 0 50px;
+  background-color: #faf9f6;
+  display: flex;
+  flex-direction: column;
+  min-height: 95vh;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url(./assets/fonts/MontserratAlternates-Thin.woff);
+}
+
+.main {
+  flex: 1;
+}
+
+h1 {
+  font-family: "Montserrat";
+  font-size: 5rem;
+  font-family: "Montserrat";
+}
+
+footer {
+  font-family: "Montserrat";
+  text-align: right;
+  color: white;
+  background-color: black;
+  padding: 10px;
+}
+
+.tile-image {
+  height: 200px;
+  float: left;
+  margin-right: 50px;
+}
+
+.card {
+  font-family: "Montserrat";
+  width: 45%;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.creative {
+  color: midnightblue;
+}
+@media screen and (min-width: 500px) {
+  .logo {
+    width: 100px;
+  }
+
+  h1 {
+    font-size: 3.5rem;
+    text-align: center;
+  }
+
+  .card {
+    width: 100%;
+    display: block;
+    margin-bottom: 30px;
+    text-align: justify;
+  }
+
+  .card img {
+    margin-bottom: 10px;
+    width: 100%;
+    display: inline;
+    object-fit: cover;
+  }
+}
+@media screen and (max-width: 700px) {
+  .logo {
+    width: 100px;
+  }
+
+  h1 {
+    font-size: 3.5rem;
+    text-align: center;
+  }
+
+  .card {
+    width: 100%;
+    display: block;
+    margin-bottom: 30px;
+    text-align: justify;
+  }
+
+  .card img {
+    margin-bottom: 10px;
+    width: 100%;
+    display: inline;
+    object-fit: cover;
+  }
+}
