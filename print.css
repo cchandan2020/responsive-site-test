@@ -1,5 +1,14 @@
+@font-face {
+  font-family: "Montserrat";
+  src: url(./assets/fonts/MontserratAlternates-Thin.woff);
+}
+* {
+  font-family: "Montserrat";
+  background-color: white;
+  color: black;
+}
 body {
-  font-family: "Poppins", sans-serif;
+  /* font-family: "Poppins", sans-serif; */
   margin: 50px 50px 0 50px;
   background-color: #faf9f6;
   display: flex;
@@ -15,10 +24,12 @@ h1 {
 }
 
 footer {
+  font-family: "Montserrat";
   text-align: right;
-  color: midnightblue;
+  color: white;
+  background-color: black;
+  padding: 10px;
 }
-
 .tile-image {
   height: 200px;
   float: left;
@@ -41,7 +52,7 @@ footer {
   color: midnightblue;
 }
 
-@media (max-width: 680px) {
+@media screen and (max-width: 680px) {
   .logo {
     width: 100px;
   }
